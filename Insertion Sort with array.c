@@ -9,7 +9,7 @@ int main()
      element = 0,
      array[MAX_ELEMENTS],
      totalElements = MAX_ELEMENTS;
-printf("Enter an element [-1 for Exit]: ");
+printf("Enter an element: ");
 scanf("%d", &element);
 
 while ( (element !=-1) ) 
@@ -22,12 +22,12 @@ while ( (element !=-1) )
    }
 array[k+1] = element;
 
-printf ("After inserting %d, array becomes:\n",element);
+printf ("After inserting %d, array is:\n",element);
 for (j = 0; j<=i; j++)
   {  
    printf ("%d   ", array[j]);
   }
-  printf ("\n Enter another element[-1 for Exit]: ");
+  printf ("\n Enter other element,-1 for Exit: ");
   scanf ("%d", &element);
   i++;
 }
