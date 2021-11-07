@@ -27,7 +27,7 @@ for (j = 0; j<=i; j++)
   {  
    printf ("%d   ", array[j]);
   }
-  printf ("\n Enter another element[-1 for Exit: ");
+  printf ("\n Enter another element[-1 for Exit]: ");
   scanf ("%d", &element);
   i++;
 }
@@ -39,5 +39,4 @@ for (j = 0; j<i; j++)
 
  }
  return 0;
-
 }
