@@ -7,7 +7,7 @@ int main()
      j = 0,
      k = 0,
      search = 0,
-     index_ min = 0,
+     index_min = 0,
      totalElements = 0,
      array[MAX_ELEMENTS];
      
